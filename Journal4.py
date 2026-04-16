@@ -43,7 +43,7 @@ class Animal:
 
 def main():
     Elliots_Animal= Animal(arms= 0.0, legs= 0.1, eyes= 2, tail=False, furry=True)
-    print(Elliots_Animal.printAnimal())
+    Elliots_Animal.printAnimal()
 
 if __name__ == "__main__":
     main()
